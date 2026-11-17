@@ -1,0 +1,127 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.fa-address-book{
+padding: 16px;
+font-size: 30px;
+color: #ffff;
+}
+.header h1 span {
+color: #5E34F8;
+}
+.header-box{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.first-icon{
+  background-color: #5E34F8;
+  border-radius: 10px;
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-address-book{
+  font-size: 30px;
+  color: #fff;
+}
+.notes h1{
+  margin: 0;
+  font-size: 20px;
+}
+.notes p{
+  margin: 0;
+  font-size: 13px;
+}
+.notes h1 span{
+  color: #5E34F8;
+}
+
+.my-nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.fa-bell{
+color: #364153;
+}
+
+.fa-gear{
+color : #364153
+}
+
+
+.head-image{
+width: 50px;
+}
+
+
+
+.add{
+background-color: #6831FA;
+color: #fff;
+border-radius: 15px;
+gap: 16px;
+padding: 10px;
+}
+
+
+
+.fa-users{
+color: white;
+background-color: #1C69FF;
+padding: 20px;
+border-radius: 15px;
+}
+
+.fa-star{
+color: white;
+background-color: #FF8E00;
+padding: 20px;
+border-radius: 15px;
+}
+
+
+.fa-heart-pulse{
+color: white;
+background-color: #EB001F;
+padding: 20px;
+border-radius: 15px;
+}
+
+.number{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.search-box{
+    position: relative;
+    margin-top: 15px;
+}
+
+.search-box i{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.search-box input{
+    width: 100%;
+    padding-left: 45px;
+}
+
+
+.image{
+  width: 60px;
+}
